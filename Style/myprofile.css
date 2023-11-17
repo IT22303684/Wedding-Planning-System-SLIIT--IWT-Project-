@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 94px;
+  background: #fff;
+  border: 1px solid black;
+  position: relative;
+  /* box-shadow: -1px 1px 20px 0px black; */
+  box-shadow: -20px -12px 20px 20px black;
+  z-index: 10;
+}
+
+body {
+  background-color: aliceblue;
+}
+header > img {
+  position: relative;
+  left: 61px;
+}
+
+header > nav {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+header > nav > ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 50px;
+  color: #000;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 24px;
+  right: 20px;
+}
+
+header > nav > ul li:hover {
+  color: #974444;
+}
+
+header > nav > ul li > a:hover {
+  background-color: bisque;
+  color: #f5eded;
+}
+
+/* end header */
+
+/* main  */
+main {
+  position: relative;
+}
+
+.main-banner {
+  position: absolute;
+  width: 90%;
+  height: 193px;
+
+  top: 125px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  border-radius: 15px;
+  border: 3px solid #000;
+  background: #fff901;
+  box-shadow: 4px 8px 7px 3px rgba(0, 0, 0, 0.25);
+}
+
+.user-container {
+  border: 2px solid red;
+  width: 200px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  list-style: none;
+  width: 207px;
+  height: 288px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  border: 3px solid #000;
+  background: #fcfcfc;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.user-menu > li {
+  margin-left: 40px;
+  text-decoration: none;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.user-menu > li > a {
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+
+  font-weight: 700;
+}
+
+.user-menu > li > a:hover {
+  border-bottom: 5px solid black;
+}
+
+.welcome-msg {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.details-section {
+  width: 1080px;
+  height: 966px;
+  flex-shrink: 0;
+  background-color: red;
+  position: absolute;
+  left: 120%;
+  top: -10%;
+  border-radius: 20px;
+  border: 4px solid #000;
+  background: #f0f0f0;
+  box-shadow: 1px 7px 7px 8px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.my-details {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  display: inline-block;
+  background-color: #c4c6c8;
+  position: absolute;
+  left: 80px;
+  margin-top: 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.detail-container {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.detail-container > p {
+  margin: 20px;
+}
+
+.edit-details {
+  width: 450px;
+  height: 800px;
+  flex-shrink: 0;
+  display: inline-block;
+  background-color: #c4c6c8;
+  position: relative;
+  left: 55%;
+  margin-top: -151px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.edit-container {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.edit-container > p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.edit-container > input {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="date"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.submit {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-left: 134px;
+  margin-top: 20px;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+/* start delete-account section */
+
+.delete-account {
+  width: 450px;
+  height: 150px;
+  flex-shrink: 0;
+  display: inline-block;
+  background-color: #c4c6c8;
+  position: relative;
+  left: 10px;
+  top: 454px;
+  margin-top: 60px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.delete-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.delete-container > p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.delete-container > input {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.delete-btn {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  margin-left: 134px;
+  margin-top: 20px;
+}
+
+.delete-btn:hover {
+  background-color: #da190b;
+}
+
+#deleteForm {
+  display: none;
+  display: inline-block;
+  position: relative;
+  right: 531px;
+  top: -100px;
+}
+
+/* footer section */
+
+footer > div {
+  height: 310px;
+  flex-shrink: 0;
+
+  border-radius: 40px 40px 0px 0px;
+  /* background: #bbdff4; */
+  background: #323030;
+  margin-top: 90%;
+}
+
+footer > div > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > div > div > img:nth-child(1) {
+  margin-top: 33px;
+}
+
+footer > div > div > img:nth-child(2) {
+  margin-left: 300px;
+  margin-top: 57px;
+}
+
+footer > div > div ul {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 70px;
+  margin-left: -100px;
+}
+
+footer > div > div > ul:nth-child(3) {
+  padding-right: 65px;
+}
+footer > div > div > ul li {
+  list-style: none;
+
+  cursor: pointer;
+  font-size: 16px;
+
+  color: #ffffff;
+  font-family: saunion-serif, Georgia, Times New Roman, Times, serifns-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer > div > h3 {
+  color: #f5eded;
+  font-family: Lato;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-transform: uppercase;
+}
+
+footer > div {
+  position: relative;
+}
+
+footer > div > h3:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 69%;
+  margin-top: 40px;
+}
+
+footer > div > h3:nth-child(3) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 85%;
+  margin-top: 40px;
+}
+
+footer > div > p:nth-child(4) {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.2px;
+  opacity: 0.6;
+  margin: auto;
+  position: relative;
+
+  display: inline-block;
+  margin-left: 23%;
+  margin-top: 2%;
+}
