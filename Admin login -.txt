@@ -1,0 +1,9 @@
+Admin login -
+
+	email address - admin
+	password - admin
+
+Vendor login -
+
+	email address - vendor
+	password - vendor
