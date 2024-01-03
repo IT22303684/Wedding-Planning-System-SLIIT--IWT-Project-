@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+  }
+  
+  /* Header of the page */
+  
+  header {
+      height: 94px;
+      background: #fff;
+      border: 1px solid black;
+      position: relative;
+      /* box-shadow: -1px 1px 20px 0px black; */
+      box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.471);
+      z-index: 10;
+  }
+    
+  header > img {
+      position: relative;
+      left: 61px;
+  }
+    
+  header > nav {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+  }
+  
+  header > h1 {
+    position: absolute;
+    margin-left: 46%;
+    margin-right: 54%;
+    top: 10px;
+    font-family: Lateef;
+  }
+  
+    
+  #notify{
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  
+  /*  Logout button */
+  
+  #lout {
+    background-color:rgb(239, 86, 69);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: Lateef;
+    float: right;
+    margin-top: 10px;
+  }
+  
+  #lout:hover, #lout:focus {
+    background-color: #e61818;
+  }
+  
+  /* End of Logout button */
+  
+  #prof {
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-left: 30px;
+    margin-top: -15px;
+  }
+  
+  main::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  

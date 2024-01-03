@@ -1,0 +1,119 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin-left: 18%;
+  font-family: "Roboto", sans-serif;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 16px;
+}
+
+table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.button-edit {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.button-delete {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.button-add {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.buuton-main-add {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button-add:hover {
+  background-color: #45a049;
+}
+
+.button-edit:hover {
+  background-color: #45a049;
+}
+
+.button-delete:hover {
+  background-color: #f44336;
+}
+
+.button-add a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-edit a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-delete a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-add a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.button-edit a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.button-delete a:hover {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,117 @@
+.main-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  display: inline-block;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 600px;
+}
+
+.main-section h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-section p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-section .main-section-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.main-section .main-section-content h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.adduser {
+  font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="date"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.login-form input[type="radio"] {
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] .login-form input[type="tel"],
+.login-form input[type="number"],
+.login-form input[type="date"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button[type="submit"] {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-left: 42px;
+  margin-top: 20px;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.lbmale {
+  margin-left: 60px;
+}
+
+.lbfemale {
+  margin-left: 20px;
+}
+
+.dob {
+  margin-left: 35px;
+}
+
+.gender {
+  margin-left: 35px;
+}
+
+.login-form input[type="checkbox"] {
+  margin-left: 35px;
+}
+
+.error {
+  font-size: 30px;
+  font-weight: bolder;
+}

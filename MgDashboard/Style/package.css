@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+}
+
+/* end of the header */
+
+#top1 {
+  padding-top: 65px;
+  color: #f3f3f3;
+  font-weight: bolder;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: double;
+}
+
+#top {
+  height: 80px;
+  width: 100%;
+  margin: 0;
+  float: right;
+  color: white;
+  background: #323030;
+  /* background-image: linear-gradient(to right, whitesmoke, rgb(234, 217, 123), gold, rgb(234, 217, 123), whitesmoke); */
+  border: 1px solid black;
+  text-align: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: white;
+  float: left;
+  height: 80%;
+  overflow: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: lateef;
+  font-size: larger;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.393);
+}
+
+.nav-menu > li a {
+  display: block;
+  color: #000;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-family: Lateef;
+  border-bottom: 1px solid black;
+  background-image: linear-gradient(
+    to bottom right,
+    gold,
+    rgb(238, 218, 109),
+    rgb(238, 222, 135),
+    whitesmoke,
+    whitesmoke
+  );
+}
+
+.nav-menu > li a:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    whitesmoke,
+    rgb(238, 218, 109),
+    gold,
+    gold,
+    rgb(238, 218, 109),
+    whitesmoke
+  );
+  color: white;
+}
+
+.mn_package {
+  height: 550px;
+}
+
+.productData {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 250px;
+  border-style: groove;
+  border-color: DarkBlue;
+  max-height: 390px;
+  overflow-y: scroll;
+}
+
+.see_more {
+  display: flex;
+  width: 150px;
+  height: 15px;
+  padding: 18px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  border: 4px solid #000;
+  background: #422342;
+  margin: auto;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.see_more:hover {
+  cursor: pointer;
+  background-color: #bc5c76;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 99%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.package_card {
+  border: 9px solid rgb(255 186 12);
+  background: rgb(255, 255, 255);
+  width: 262.64px;
+  height: 400px;
+  position: relative;
+  margin-left: 20px;
+  border-radius: 35px;
+  box-shadow: black 3px 9px 9px 4px;
+}
+
+.package_card:hover {
+  box-shadow: 1px 8px 20px grey;
+  transition: all 0.3s linear;
+  background-color: rgb(255 186 12);
+}
+
+.view {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  display: inline-block;
+  color: #000000;
+}
+
+.vew::hover {
+  color: #ffffff;
+}
+
+/* footer section */
+
+footer > div {
+  height: 310px;
+  flex-shrink: 0;
+
+  border-radius: 40px 40px 0px 0px;
+  /* background: #bbdff4; */
+  background: #323030;
+  margin-top: 25px;
+}
+
+footer > div > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > div > div > img:nth-child(1) {
+  margin-top: 33px;
+}
+
+footer > div > div > img:nth-child(2) {
+  margin-left: 300px;
+  margin-top: 57px;
+}
+
+footer > div > div ul {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 70px;
+  margin-left: -100px;
+}
+
+footer > div > div > ul:nth-child(3) {
+  padding-right: 65px;
+}
+footer > div > div > ul li {
+  list-style: none;
+
+  cursor: pointer;
+  font-size: 16px;
+
+  color: #ffffff;
+  font-family: saunion-serif, Georgia, Times New Roman, Times, serifns-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer > div > h3 {
+  color: #f5eded;
+  font-family: Lato;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-transform: uppercase;
+}
+
+footer > div {
+  position: relative;
+}
+
+footer > div > h3:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 69%;
+  margin-top: 40px;
+}
+
+footer > div > h3:nth-child(3) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 85%;
+  margin-top: 40px;
+}
+
+footer > div > p:nth-child(4) {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.2px;
+  opacity: 0.6;
+  margin: auto;
+  position: relative;
+
+  display: inline-block;
+  margin-left: 23%;
+  margin-top: 2%;
+}
